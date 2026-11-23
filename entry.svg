@@ -35,36 +35,25 @@
 <line x1="40" y1="143" x2="984" y2="143" stroke="#123047" stroke-width="3"/>
 <line x1="40" y1="149" x2="984" y2="149" stroke="#b23a32" stroke-width="1.5"/>
 
-<!-- 01 · US / China -->
+<!-- 01 · MARKETS / OIL -->
 <g transform="translate(40 168)">
   <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
   <rect width="12" height="244" rx="6" fill="#b23a32"/>
   <circle cx="30" cy="34" r="15" fill="#b23a32"/>
   <text x="30" y="39" class="num" text-anchor="middle">01</text>
-  <text x="56" y="40" class="kicker" fill="#b23a32">US · CHINA</text>
+  <text x="56" y="40" class="kicker" fill="#b23a32">MARKETS · OIL</text>
   <g transform="translate(300 20)">
-    <rect x="0" y="0" width="66" height="42" fill="#fffdf7" stroke="#a89d87" stroke-width="1.4"/>
-    <rect x="0" y="5" width="66" height="4" fill="#c0392b"/>
-    <rect x="0" y="14" width="66" height="4" fill="#c0392b"/>
-    <rect x="0" y="23" width="66" height="4" fill="#c0392b"/>
-    <rect x="0" y="32" width="66" height="4" fill="#c0392b"/>
-    <rect x="0" y="0" width="29" height="23" fill="#2b4c8c"/>
-    <g fill="#ffffff">
-      <circle cx="6" cy="6" r="1.4"/><circle cx="15" cy="6" r="1.4"/><circle cx="23" cy="6" r="1.4"/>
-      <circle cx="6" cy="15" r="1.4"/><circle cx="15" cy="15" r="1.4"/><circle cx="23" cy="15" r="1.4"/>
-    </g>
-    <rect x="84" y="10" width="66" height="42" fill="#d42f2f" stroke="#a89d87" stroke-width="1.4"/>
-    <text x="93" y="44" font-size="27" fill="#ffd84d">★</text>
-    <g fill="#ffd84d">
-      <circle cx="128" cy="22" r="2.8"/><circle cx="137" cy="30" r="2.8"/>
-      <circle cx="137" cy="41" r="2.8"/><circle cx="128" cy="48" r="2.8"/>
-    </g>
-    <rect x="34" y="56" width="86" height="23" rx="11.5" fill="#123047"/>
-    <text x="77" y="72" class="ribbon" text-anchor="middle">TRUCE</text>
+    <rect x="0" y="0" width="140" height="76" rx="8" fill="#f7ead6" stroke="#d8cdb5" stroke-width="1.5"/>
+    <path d="M18 5 C10 18 6 25 6 32 a12 12 0 0 0 24 0 C30 25 26 18 18 5 Z" fill="#1f6f8b"/>
+    <path d="M18 25 c-3 5 -5 8 -5 11 a5 5 0 0 0 10 0 c0-3-2-6-5-11 z" fill="#f7ead6" opacity="0.75"/>
+    <path d="M44 20 L66 30 L88 24 L108 46 L132 54" fill="none" stroke="#b23a32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M119 47 L132 54 L125 41" fill="none" stroke="#b23a32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="82" y="58" width="52" height="15" rx="7.5" fill="#123047"/>
+    <text x="108" y="69.5" class="pill" text-anchor="middle">BRENT</text>
   </g>
-  <text x="24" y="132" class="headline">Xi in Washington;</text>
-  <text x="24" y="170" class="headline">trade truce extended</text>
-  <text x="24" y="214" class="detail">Planeside ceremony · tariff pause extended</text>
+  <text x="24" y="132" class="headline">Oil prices fall</text>
+  <text x="24" y="170" class="headline">as equities sell off</text>
+  <text x="24" y="214" class="detail">Iran war attacks limit losses</text>
 </g>
 
 <!-- 02 · Ukraine / Libya -->
@@ -179,6 +168,6 @@
 <!-- footer -->
 <line x1="40" y1="944" x2="984" y2="944" stroke="#b9aa8d" stroke-width="2"/>
 <text x="40" y="978" class="foot">SIX STORIES · REPORTED 23 NOV 2026</text>
-<text x="984" y="978" class="foot" text-anchor="end">SOURCES: REUTERS · AP · CNN</text>
+<text x="984" y="978" class="foot" text-anchor="end">SOURCES: REUTERS · CNN</text>
 <text x="40" y="1003" class="footnote">Events reported on the day · claims attributed where disputed</text>
 </svg>
