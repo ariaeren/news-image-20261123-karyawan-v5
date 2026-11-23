@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse">
+    <circle cx="1.2" cy="1.2" r="0.7" fill="#bdaf92" opacity="0.30"/>
+  </pattern>
+  <style>
+    text { font-family: 'DejaVu Sans', sans-serif; }
+    .eyebrow { font-size: 19px; font-weight: 700; letter-spacing: 4px; fill: #b23a32; }
+    .date { font-size: 56px; font-weight: 700; letter-spacing: 1px; fill: #102a43; }
+    .boxsmall { font-size: 15px; font-weight: 700; letter-spacing: 2.2px; fill: #c8d8e2; }
+    .boxbig { font-size: 24px; font-weight: 700; letter-spacing: 1px; fill: #ffffff; }
+    .kicker { font-size: 18px; font-weight: 700; letter-spacing: 2.1px; }
+    .num { font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .headline { font-size: 31px; font-weight: 700; fill: #102a43; }
+    .detail { font-size: 16px; fill: #53616b; }
+    .ribbon { font-size: 13px; font-weight: 700; letter-spacing: 1px; fill: #ffffff; }
+    .pill { font-size: 12.5px; font-weight: 700; letter-spacing: 0.4px; fill: #ffffff; }
+    .foot { font-size: 14px; font-weight: 700; letter-spacing: 1.4px; fill: #5b6670; }
+    .footnote { font-size: 13px; fill: #7a756b; }
+  </style>
+</defs>
+
+<rect width="1024" height="1024" fill="#f6efdf"/>
+<rect width="1024" height="1024" fill="url(#grain)" opacity="0.42"/>
+<rect width="1024" height="12" fill="#123047"/>
+<rect y="12" width="1024" height="4" fill="#b23a32"/>
+
+<!-- masthead -->
+<rect x="40" y="34" width="10" height="92" fill="#b23a32"/>
+<text x="66" y="52" class="eyebrow">WORLD NEWS · MONDAY</text>
+<text x="64" y="112" class="date">23 NOVEMBER 2026</text>
+<rect x="786" y="30" width="198" height="96" rx="9" fill="#123047"/>
+<text x="808" y="62" class="boxsmall">ONE DAY</text>
+<text x="804" y="99" class="boxbig">SIX STORIES</text>
+<line x1="40" y1="143" x2="984" y2="143" stroke="#123047" stroke-width="3"/>
+<line x1="40" y1="149" x2="984" y2="149" stroke="#b23a32" stroke-width="1.5"/>
+
+<!-- 01 · US / China -->
+<g transform="translate(40 168)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#b23a32"/>
+  <circle cx="30" cy="34" r="15" fill="#b23a32"/>
+  <text x="30" y="39" class="num" text-anchor="middle">01</text>
+  <text x="56" y="40" class="kicker" fill="#b23a32">US · CHINA</text>
+  <g transform="translate(300 20)">
+    <rect x="0" y="0" width="66" height="42" fill="#fffdf7" stroke="#a89d87" stroke-width="1.4"/>
+    <rect x="0" y="5" width="66" height="4" fill="#c0392b"/>
+    <rect x="0" y="14" width="66" height="4" fill="#c0392b"/>
+    <rect x="0" y="23" width="66" height="4" fill="#c0392b"/>
+    <rect x="0" y="32" width="66" height="4" fill="#c0392b"/>
+    <rect x="0" y="0" width="29" height="23" fill="#2b4c8c"/>
+    <g fill="#ffffff">
+      <circle cx="6" cy="6" r="1.4"/><circle cx="15" cy="6" r="1.4"/><circle cx="23" cy="6" r="1.4"/>
+      <circle cx="6" cy="15" r="1.4"/><circle cx="15" cy="15" r="1.4"/><circle cx="23" cy="15" r="1.4"/>
+    </g>
+    <rect x="84" y="10" width="66" height="42" fill="#d42f2f" stroke="#a89d87" stroke-width="1.4"/>
+    <text x="93" y="44" font-size="27" fill="#ffd84d">★</text>
+    <g fill="#ffd84d">
+      <circle cx="128" cy="22" r="2.8"/><circle cx="137" cy="30" r="2.8"/>
+      <circle cx="137" cy="41" r="2.8"/><circle cx="128" cy="48" r="2.8"/>
+    </g>
+    <rect x="34" y="56" width="86" height="23" rx="11.5" fill="#123047"/>
+    <text x="77" y="72" class="ribbon" text-anchor="middle">TRUCE</text>
+  </g>
+  <text x="24" y="132" class="headline">Xi in Washington;</text>
+  <text x="24" y="170" class="headline">trade truce extended</text>
+  <text x="24" y="214" class="detail">Planeside ceremony · tariff pause extended</text>
+</g>
+
+<!-- 02 · Ukraine / Libya -->
+<g transform="translate(532 168)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#147d78"/>
+  <circle cx="30" cy="34" r="15" fill="#147d78"/>
+  <text x="30" y="39" class="num" text-anchor="middle">02</text>
+  <text x="56" y="40" class="kicker" fill="#147d78">UKRAINE · LIBYA</text>
+  <g transform="translate(300 20)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 89 q10 -8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" stroke="#147d78" stroke-width="3"/>
+    <path d="M34 62 h84 l-12 16 H48 z" fill="#123047" stroke="none"/>
+    <line x1="72" y1="24" x2="72" y2="62" stroke="#123047" stroke-width="3"/>
+    <path d="M74 27 l18 6 -18 6 z" fill="#b23a32" stroke="none"/>
+    <circle cx="124" cy="32" r="9" fill="#e08a2e" stroke="none"/>
+    <path d="M124 14 v8 M124 42 v8 M106 32 h8 M134 32 h8" stroke="#e08a2e" stroke-width="3"/>
+    <ellipse cx="14" cy="54" rx="12" ry="5" fill="#123047" stroke="none"/>
+    <path d="M14 49 v-14 M2 54 h24 M14 54 l-10 8 M14 54 l10 8" stroke="#123047" stroke-width="2.6"/>
+  </g>
+  <text x="24" y="132" class="headline" style="font-size:29px">Sea drones sink Russian</text>
+  <text x="24" y="170" class="headline">corvette Merkury</text>
+  <text x="24" y="214" class="detail">Zelenskiy says · Benghazi naval base</text>
+</g>
+
+<!-- 03 · Iran / US blockade -->
+<g transform="translate(40 424)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#c65b2e"/>
+  <circle cx="30" cy="34" r="15" fill="#c65b2e"/>
+  <text x="30" y="39" class="num" text-anchor="middle">03</text>
+  <text x="56" y="40" class="kicker" fill="#c65b2e">IRAN · US GULF</text>
+  <g transform="translate(318 20)">
+    <rect x="0" y="0" width="100" height="58" fill="#fffdf7" stroke="#a89d87" stroke-width="1.4"/>
+    <rect x="0" y="0" width="100" height="19" fill="#2f8f5b"/>
+    <rect x="0" y="39" width="100" height="19" fill="#d63b32"/>
+    <circle cx="50" cy="29" r="8.5" fill="none" stroke="#d63b32" stroke-width="3"/>
+    <path d="M20 80 h78 l-10 12 H30 z" fill="#123047"/>
+    <line x1="59" y1="58" x2="59" y2="80" stroke="#123047" stroke-width="3"/>
+    <path d="M9 69 L129 96" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="24" y="132" class="headline">Tehran vows response</text>
+  <text x="24" y="170" class="headline">to US naval blockade</text>
+  <text x="24" y="214" class="detail">Foreign ministry: all available tools</text>
+</g>
+
+<!-- 04 · India / Nepal -->
+<g transform="translate(532 424)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#1f6f8b"/>
+  <circle cx="30" cy="34" r="15" fill="#1f6f8b"/>
+  <text x="30" y="39" class="num" text-anchor="middle">04</text>
+  <text x="56" y="40" class="kicker" fill="#1f6f8b">INDIA · NEPAL</text>
+  <g transform="translate(298 18)">
+    <path d="M4 76 L40 28 L64 60 L88 20 L136 76 Z" fill="#7d8d98"/>
+    <path d="M40 28 L31 40 L40 38 L49 41 Z" fill="#fffdf7"/>
+    <path d="M88 20 L78 34 L88 31 L98 35 Z" fill="#fffdf7"/>
+    <path d="M0 83 q12 -8 24 0 t24 0 t24 0 t24 0 t24 0 t24 0" fill="none" stroke="#1f6f8b" stroke-width="3"/>
+    <rect x="83" y="60" width="61" height="25" rx="12.5" fill="#123047"/>
+    <text x="113.5" y="77" class="pill" text-anchor="middle">$1.62B</text>
+  </g>
+  <text x="24" y="132" class="headline">$1.62bn flood aid</text>
+  <text x="24" y="170" class="headline">package announced</text>
+  <text x="24" y="214" class="detail">India after talks with Nepal's PM Shah</text>
+</g>
+
+<!-- 05 · COP31 -->
+<g transform="translate(40 680)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#d17a22"/>
+  <circle cx="30" cy="34" r="15" fill="#d17a22"/>
+  <text x="30" y="39" class="num" text-anchor="middle">05</text>
+  <text x="56" y="40" class="kicker" fill="#d17a22">COP31 · ANTALYA</text>
+  <g transform="translate(300 18)">
+    <circle cx="50" cy="48" r="38" fill="#e9f4f2" stroke="#1f6f8b" stroke-width="2.5"/>
+    <ellipse cx="50" cy="48" rx="16" ry="38" fill="none" stroke="#1f6f8b" stroke-width="1.6"/>
+    <path d="M14 48 h72 M20 30 h60 M20 66 h60" fill="none" stroke="#1f6f8b" stroke-width="1.5"/>
+    <path d="M34 16 l10 14 -8 12 12 12 -6 16" fill="none" stroke="#c0392b" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="106" y="30" width="20" height="34" fill="#5f6d75"/>
+    <circle cx="116" cy="22" r="6" fill="#9aa5aa" opacity="0.75"/>
+    <circle cx="126" cy="14" r="8" fill="#9aa5aa" opacity="0.55"/>
+    <rect x="96" y="72" width="48" height="20" rx="10" fill="#123047"/>
+    <text x="120" y="87" class="pill" text-anchor="middle">NO DEAL</text>
+  </g>
+  <text x="24" y="132" class="headline">Climate talks collapse</text>
+  <text x="24" y="170" class="headline">over fossil fuels</text>
+  <text x="24" y="214" class="detail">EU walks out of the final plenary</text>
+</g>
+
+<!-- 06 · NATO / Russia -->
+<g transform="translate(532 680)">
+  <rect width="452" height="244" rx="12" fill="#fffdf7" stroke="#d8cdb5" stroke-width="2"/>
+  <rect width="12" height="244" rx="6" fill="#6b4f9e"/>
+  <circle cx="30" cy="34" r="15" fill="#6b4f9e"/>
+  <text x="30" y="39" class="num" text-anchor="middle">06</text>
+  <text x="56" y="40" class="kicker" fill="#6b4f9e">NATO · RUSSIA</text>
+  <g transform="translate(300 18)">
+    <path d="M8 26 a60 60 0 0 1 120 0" fill="none" stroke="#b7a7d6" stroke-width="2" stroke-dasharray="5 6"/>
+    <rect x="2" y="34" width="40" height="34" fill="#2f6f9e" stroke="#123047" stroke-width="2"/>
+    <path d="M14 34 v34 M27 34 v34 M2 51 h40" stroke="#a8d1e8" stroke-width="1.4"/>
+    <rect x="86" y="34" width="40" height="34" fill="#2f6f9e" stroke="#123047" stroke-width="2"/>
+    <path d="M98 34 v34 M111 34 v34 M86 51 h40" stroke="#a8d1e8" stroke-width="1.4"/>
+    <rect x="46" y="28" width="36" height="46" rx="4" fill="#123047"/>
+    <path d="M64 28 v-12 M56 16 h16" stroke="#123047" stroke-width="2"/>
+    <circle cx="64" cy="12" r="4" fill="#c0392b"/>
+    <text x="64" y="59" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  </g>
+  <text x="24" y="132" class="headline" style="font-size:28px">Nuclear-armed satellite</text>
+  <text x="24" y="170" class="headline" style="font-size:28px">launch ready, report says</text>
+  <text x="24" y="214" class="detail">German media cite NATO intelligence</text>
+</g>
+
+<!-- footer -->
+<line x1="40" y1="944" x2="984" y2="944" stroke="#b9aa8d" stroke-width="2"/>
+<text x="40" y="978" class="foot">SIX STORIES · REPORTED 23 NOV 2026</text>
+<text x="984" y="978" class="foot" text-anchor="end">SOURCES: REUTERS · AP · CNN</text>
+<text x="40" y="1003" class="footnote">Events reported on the day · claims attributed where disputed</text>
+</svg>
